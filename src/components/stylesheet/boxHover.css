@@ -1,0 +1,6 @@
+#boxHover {
+  transition: all .3s ease;
+}
+#boxHover:hover {
+  border: 1px solid rgb(47, 63, 99);;
+}

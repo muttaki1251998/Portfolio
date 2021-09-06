@@ -1,6 +1,6 @@
 import React from 'react';
-import Intro from './components/Intro';
 import './app.css'
+import Try from './components/Try';
 
 
 class App extends React.Component {
@@ -10,7 +10,7 @@ class App extends React.Component {
       <div>
         <div className="container">
           <div>
-            <Intro />
+            <Try />
           </div>
         </div>
       </div>

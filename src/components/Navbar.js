@@ -22,10 +22,10 @@ class Navbar extends React.Component {
           <div className="collapse navbar-collapse" style={navbarFonts} id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link to="/" className="nav-link" aria-current="page" href="#">About</Link>
+                <Link to="/" className="nav-link" aria-current="page" style={{color:'#f7e8e6'}} href="#">About</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="https://drive.google.com/file/d/1gkUao5cKgWP2M_t-ZV27hNlG6s2UUJ3u/view?usp=sharing">Resume</a>
+                <a className="nav-link" style={{color:'#f7e8e6', marginLeft: '30px'}} href="https://drive.google.com/file/d/1hplxBDssP5EbbgAUdNCpTe5Od8-rtpb2/view?usp=sharing">Resume</a>
               </li>
             </ul>
           </div>

@@ -1,37 +1,34 @@
 import React from 'react';
+import Logo from './Logo';
 import './stylesheet/about.css';
-import Dp from './dp.jpeg';
 
 const AboutMe = () => {
 
   return (
-    <div>
-      <div className="row">
-        <div className="col" style={{ marginTop: '100px' }}>
-          <h1 className="display-8" style={{fontFamily: 'Roboto', color:'rgb(47, 63, 99)'}}>About Me</h1>
-          Hi! My name is Muhammad Muttaki and I love creating web applications. My
-          interest in web development started back in 2017 when I had just graduated
-          highschool. I would always fiddle around with HTML and CSS.
-          <p>Fast forward to today, Now I am a front-end developer working
-            with React.
-          </p>
-          <p>Here are some technologies that I have been working with for over a year:</p>
-          <ul className="list-group list-group-flush ">
-            <li class="list-group-item bg-transparent">React</li>
-            <li class="list-group-item bg-transparent">HTML</li>
-            <li class="list-group-item bg-transparent">CSS</li>
-            <li class="list-group-item bg-transparent">Express</li>
-            <li class="list-group-item bg-transparent">MongoDB</li>
-            <li class="list-group-item bg-transparent">JavaScript</li>
-            <li class="list-group-item bg-transparent">Jquery</li>
-          </ul>
+    <div className="row">
+      <div className="col" style={{ marginTop: '100px' }}>
+        <h1 className="display-8 header">About Me</h1>
+        <div style={{color: 'rgb(143, 156, 187)', fontSize: '20px'}}>
+        <p>Hello! I’m a Computer Science undergrad who loves creating web applications. 
+        My passion for web development started back when I was just a fresh graduate out of high school. 
+        I would always fiddle around with HTML and CSS. Now, four years later, I am a Full stack developer working with mainly React and Node with SQL.
+        </p>
+        <p>Here are some technologies that I have been working with for over a year:</p>
         </div>
-        <div className="col" style={{ marginTop: '160px'}}>
-        <img src={Dp} class="img-fluid" id="pic" alt="..." style={{ border: "6px solid rgb(47, 63, 99)", borderRadius:"6px"}}/>
-        </div>
+        <ul className="list-group list-group-flush ">
+          <li className="list-group-item bg-transparent" style={{color: 'rgb(143, 156, 187)'}}>React / Redux / React-Hooks</li>
+          <li className="list-group-item bg-transparent" style={{color: 'rgb(143, 156, 187)'}}>HTML / CSS / Javascript</li>
+          <li className="list-group-item bg-transparent" style={{color: 'rgb(143, 156, 187)'}}>Angular / Vue</li>
+          <li className="list-group-item bg-transparent" style={{color: 'rgb(143, 156, 187)'}}>Node / Express</li>
+          <li className="list-group-item bg-transparent" style={{color: 'rgb(143, 156, 187)'}}>NoSQL / SQL / GraphQL / PostgreSQL</li>
+          <li className="list-group-item bg-transparent" style={{color: 'rgb(143, 156, 187)'}}>Webpack / Babel</li>
+        </ul>
+      </div>
+      <div className="col" style={{marginTop: '150px'}}>
+        <Logo />
       </div>
     </div>
   );
 }
 
-export default AboutMe
+export default AboutMe;

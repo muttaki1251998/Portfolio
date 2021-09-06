@@ -1,26 +1,35 @@
 .box {
-  margin-top: 15rem;
+  margin-top: 16rem;
 }
 .test{
-  color:rgb(47, 63, 99);
+  font-family: Roboto;
+    font-weight: 500;
+    font-size: 80px;
+    color:rgb(92, 117, 173);
 }
-.button {
+.test2{  
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 60px;
+  color: rgb(183, 205, 255);
+  padding-bottom: 30px;
+}
+.butts {
   transition: all .5s ease;
   text-align: center;
   text-decoration: none;
   cursor: pointer;
-  border: 1px solid rgb(47, 63, 99);
-  background-color: transparent;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgb(77, 92, 121);
   height: 40px;
   width: 140px;
-  color: rgb(47, 63, 99);
+  color: #fff;
   border-radius: 4px;
 }
 
-.button:hover {
-  background-color: rgb(47, 63, 99);
-  color: white;
-  
+.butts:hover {
+  color: black;  
+  background-color: rgb(183, 205, 255);
 }
 
 .exp {
@@ -32,4 +41,5 @@
   padding-top: 30px;
   color:rgb(47, 63, 99);
   font-family: 'Roboto';
+  color:rgb(74, 97, 150)
 }

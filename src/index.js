@@ -6,7 +6,7 @@ import createBrowserHistory from './history';
 
 import Navbar from './components/Navbar';
 import Form from './components/Form';
-import Intro from './components/Intro';
+import Try from './components/Try';
 
 const Root = () => {
   return (<div>    
@@ -14,7 +14,7 @@ const Root = () => {
       <Navbar />
       <Route path="/" exact component={App} />
       <Route path="/contact" exact component={Form} />
-      <Route path="/about" exact component={Intro} />
+      <Route path="/about" exact component={Try} />
     </Router>
   </div>)
 }

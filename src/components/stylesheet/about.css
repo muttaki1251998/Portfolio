@@ -3,6 +3,11 @@
   width: 450px;
 }
 
+.header {
+  font-family: Roboto;
+  color: rgb(92, 117, 173);
+}
+
 .button {
   transition: all .5s ease;
   text-align: center;
